@@ -23,3 +23,8 @@ Addressing the singleton design pattern both the traditional way and how the spr
 
 NOTE: Points to expand and observe are:
 - Thread Safety
+
+### Prototype
+
+Demonstrates the spring way of creation of prototype and how through the @Scope we cab control the creation, although here the implementation is simple the prototype creation can be controlled so that 
+the new creation can be provided with singleton objects to avoid cost of creation.
